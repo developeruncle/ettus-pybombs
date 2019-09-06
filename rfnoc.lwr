@@ -13,7 +13,7 @@ config:
             gitbranch: master
             forcebuild: True
         uhd-fpga:
-            gitbranch: master
+            gitbranch: rfnoc-devel
 depends:
 - gnuradio
 - uhd
