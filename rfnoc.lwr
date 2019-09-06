@@ -3,7 +3,7 @@ inherit: prefix
 config:
     packages:
         uhd:
-            gitbranch: master
+            gitbranch: rfnoc-devel
             forcebuild: True
             vars:
               config_opt: " -DENABLE_RFNOC=ON "
